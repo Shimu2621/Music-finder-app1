@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#song-search {
+    background-color: rgb(102, 78, 102);
+    padding: 22px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.search-box {
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+/* input.text {
+    color: white;
+} */
+.btn {
+    border-radius: 1.5rem;
+    padding: 9px 20px;
+    cursor : pointer;
+}
+
+.btn:hover {
+    background: rgb(64, 67, 67);
+    color: #ffffff;
+    
+}
+.single-result {
+    background-color: rgb(106, 80, 106);
+    border-radius: 15px;
+    /* display: none; */
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
